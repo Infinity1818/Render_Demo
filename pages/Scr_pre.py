@@ -6,7 +6,7 @@ import xgboost
 from xgboost import XGBRegressor
 
 def run_score_predictor_page():
-    pipe = pickle.load(open('models/score_predictor1.pkl', 'rb'))
+    pipe = pickle.load(open('models/score_predictor.pkl', 'rb'))
 
     teams = ['Sunrisers Hyderabad',
             'Mumbai Indians',
